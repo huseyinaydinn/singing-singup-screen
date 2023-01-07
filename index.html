@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="user siginBox">
+                <div class="imgBox">
+                    <img src="keyhole.png" alt="">
+                </div>
+                <div class="formBox">
+                    <form>
+                        <h2>Giriş Yap</h2>
+                        <input type="text" placeholder="Kullanıcı Adı">
+                        <input type="password" placeholder="Şifre">
+                        <input type="submit" placeholder="Giriş">
+                        <p class="signup">Hesabınız yok mu? Hemen <a href="#" onclick="toggleForm();">Kayıt Ol</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="user sigupBox">
+
+                <div class="formBox">
+                    <form>
+                        <h2>Kayıt Ol</h2>
+                        <input type="text" placeholder="Kullanıcı Adı">
+                        <input type="email" placeholder="E-Mail">
+                        <input type="password" placeholder="Şifre Oluştur">
+                        <input type="password" placeholder="Şifre Oluştur(Tekrar)">
+                        <input type="submit" placeholder="Kayıt Ol">
+                        <p class="signup">Hesabınız var mı? <a href="#" onclick="toggleForm();">Giriş Yap</a></p>
+                    </form>
+                </div>
+                <div class="imgBox">
+                    <img src="keys.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
